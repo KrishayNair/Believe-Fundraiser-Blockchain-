@@ -6,18 +6,24 @@
 }
 .nav-brand{
   position: relative;
-  right: 18rem;
+  right: 4rem;
+  bottom: 0.8rem;
 }
 .nav-link{
-  color: black;
+  color: white;
   position: relative;
   right: 4.5rem;
   top: 0.5rem;
   padding-left: 2rem;
-  color: darkblue;
+  /* color: darkblue; */
   font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
 }
 .nav {
-  background-color: #8acfe6;
+  background-color: #5800FF;
+}
+ul.nav a:hover { color: black !important; }
+.dropdown-menu{
+  background-color: #47B5FF;
+  font-family: 'Poppins', sans-serif;
 }
