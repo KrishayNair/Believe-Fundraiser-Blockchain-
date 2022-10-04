@@ -1,8 +1,23 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@700&display=swap');
 .Main{
-    height: 100vh;
-    /* background-image: url("/public/bg-1.jpg"); */
-    background-color: black;
+    height: 90vh;
+    background-image: url("/public/hero2.jpeg");
+    /* background-color: black; */
     background-size: cover;
 
+}
+h1 {
+    position: relative;
+    top: 2rem;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #2B3595;
+}
+.btn{
+    width: 12rem;
+    height: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    position: relative;
+    top: 3rem;
 }
