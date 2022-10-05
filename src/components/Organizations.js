@@ -56,7 +56,7 @@ function Organizations() {
         Donate for animal fund 
 minimum donation is <strong>0.0002ETH</strong>
         </Card.Text>
-        <Button variant="primary">DONATE</Button>
+        <Link to="/transaction" ><Button variant="primary">DONATE</Button></Link>
       </Card.Body>
     </Card>
         <Card className="card1" style={{ width: '18rem' }}>
@@ -68,7 +68,7 @@ minimum donation is <strong>0.0002ETH</strong>
 Donate for Plantation Drive 
 minimum is <strong>0.0002ETH</strong>
         </Card.Text>
-        <Button variant="primary">DONATE</Button>
+        <Link to="/transaction" ><Button variant="primary">DONATE</Button></Link>
       </Card.Body>
     </Card>
         <Card className="card1" style={{ width: '18rem' }}>
@@ -79,7 +79,7 @@ minimum is <strong>0.0002ETH</strong>
 Help senior Citizen by donating Funds 
 Minimum Funds is <strong>0.0002ETH</strong>
         </Card.Text>
-        <Button variant="primary">DONATE</Button>
+        <Link to="/transaction" ><Button variant="primary">DONATE</Button></Link>
       </Card.Body>
     </Card>
         <Card className="card1" style={{ width: '18rem' }}>
@@ -91,7 +91,7 @@ Minimum Funds is <strong>0.0002ETH</strong>
 Renovating the orphanage for children 
 minimum donation is <strong>0.0002ETH</strong>
         </Card.Text>
-        <Button variant="primary">DONATE</Button>
+        <Link to="/transaction" ><Button variant="primary">DONATE</Button></Link>
       </Card.Body>
     </Card>
         <Card className="card1" style={{ width: '18rem' }}>
@@ -103,7 +103,7 @@ minimum donation is <strong>0.0002ETH</strong>
 We are doing a river cleaning drive across Ganga 
 minimum donation is <strong>0.0002ETH</strong>
         </Card.Text>
-        <Button variant="primary">DONATE</Button>
+        <Link to="/transaction" ><Button variant="primary">DONATE</Button></Link>
       </Card.Body>
     </Card>
         <Card className="card1" style={{ width: '18rem' }}>
@@ -115,7 +115,7 @@ minimum donation is <strong>0.0002ETH</strong>
 we are doing doing a Beach cleaning drive at Juhu
 minimum donation is <strong>0.0002ETH</strong>
         </Card.Text>
-        <Button variant="primary">DONATE</Button>
+        <Link to="/transaction" ><Button variant="primary">DONATE</Button></Link>
       </Card.Body>
     </Card>
 
