@@ -3,11 +3,11 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import "../components/Organizations.css"
 import img1 from "../images/img1.jpg"
-import img2 from "../images/img22.jpg"
-import img3 from "../images/img3.jpg"
-import img4 from "../images/img4.webp"
-import img5 from "../images/img5.jpg"
-import img6 from "../images/img6.jpg"
+import img2 from "../images/img222.jpeg"
+import img3 from "../images/img33.jpeg"
+import img4 from "../images/img44.jpeg"
+import img5 from "../images/img55.jpeg"
+import img6 from "../images/img66.jpeg"
 import { Link } from 'react-router-dom';
 import logo from "../images/believe.png"
 function Organizations() {
