@@ -1,0 +1,11 @@
+.workImg{
+    width: 70vw;
+    position: relative;
+    left: 15.3rem;
+    top: 5rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-style:  solid ;
+  border-color: #2B3595;
+  border-width: 1rem;
+}

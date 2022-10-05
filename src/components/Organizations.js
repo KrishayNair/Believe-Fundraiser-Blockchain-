@@ -34,17 +34,14 @@ function Organizations() {
             Fund raise for 
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Medical Treatment</a></li>
+            <li><a class="dropdown-item" href="#">Society Welfare</a></li>
             <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Animal Welfare</a></li>
           </ul>
         </li>
         <li className="nav-item">
         <Link to="/gallery" className="nav-link">Gallery</Link>
-        </li>
-        <li className="nav-item">
-        <Link to="/ContactUs" className="nav-link">Contact Us</Link>
         </li>
         <li className="nav-item">
         <Link to="/signUp" className="nav-link">Sign Up</Link>
@@ -56,8 +53,8 @@ function Organizations() {
       <Card.Body>
         <Card.Title>Animal Welfare</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Donate for animal fund 
+minimum donation is <strong>0.0002ETH</strong>
         </Card.Text>
         <Button variant="primary">DONATE</Button>
       </Card.Body>
@@ -65,10 +62,11 @@ function Organizations() {
         <Card className="card1" style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img2} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Plantation Drive</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        
+Donate for Plantation Drive 
+minimum is <strong>0.0002ETH</strong>
         </Card.Text>
         <Button variant="primary">DONATE</Button>
       </Card.Body>
@@ -76,10 +74,10 @@ function Organizations() {
         <Card className="card1" style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img3} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Old Age home Donation</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+Help senior Citizen by donating Funds 
+Minimum Funds is <strong>0.0002ETH</strong>
         </Card.Text>
         <Button variant="primary">DONATE</Button>
       </Card.Body>
@@ -87,10 +85,11 @@ function Organizations() {
         <Card className="card1" style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img4} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Donation for Orphans</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        
+Renovating the orphanage for children 
+minimum donation is <strong>0.0002ETH</strong>
         </Card.Text>
         <Button variant="primary">DONATE</Button>
       </Card.Body>
@@ -98,10 +97,11 @@ function Organizations() {
         <Card className="card1" style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img5} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>River cleaning drive </Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        
+We are doing a river cleaning drive across Ganga 
+minimum donation is <strong>0.0002ETH</strong>
         </Card.Text>
         <Button variant="primary">DONATE</Button>
       </Card.Body>
@@ -109,10 +109,11 @@ function Organizations() {
         <Card className="card1" style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img6} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Beach cleaning drive </Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        
+we are doing doing a Beach cleaning drive at Juhu
+minimum donation is <strong>0.0002ETH</strong>
         </Card.Text>
         <Button variant="primary">DONATE</Button>
       </Card.Body>

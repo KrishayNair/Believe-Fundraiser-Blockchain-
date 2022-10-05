@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import logo from "../images/believe.png"
+import work from "../images/work.png"
+import work1 from "../images/work2.png"
+import "../components/Work.css"
 function Works() {
   return (
     <div>
@@ -25,23 +28,23 @@ function Works() {
             Fund raise for 
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Medical Treatment</a></li>
+            <li><a class="dropdown-item" href="#">Society Welfare</a></li>
             <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Animal Welfare</a></li>
           </ul>
         </li>
         <li className="nav-item">
         <Link to="/gallery" className="nav-link">Gallery</Link>
         </li>
         <li className="nav-item">
-        <Link to="/ContactUs" className="nav-link">Contact Us</Link>
-        </li>
-        <li className="nav-item">
         <Link to="/signUp" className="nav-link">Sign Up</Link>
         </li>
       </ul>
       <h1>How it works</h1>
+      <img src={work1} className="workImg"></img>
+      <img src={work} className="workImg"></img>
+      
     </div>
   )
 }

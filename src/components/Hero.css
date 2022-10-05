@@ -24,3 +24,6 @@ h1 {
     top: 3rem;
     left: 47rem;
 }
+.btnHero a:link {
+    text-decoration: none;
+  }

@@ -9,6 +9,7 @@ import truck from "../images/delivery-truck.png"
 import earth from "../images/world-humanitarian-day.png"
 import { Link } from 'react-router-dom';
 import "../components/Hero.css"
+import Button from 'react-bootstrap/Button';
 
 function Navbar() {
   return (
@@ -34,17 +35,14 @@ function Navbar() {
             Fund raise for 
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Medical Treatment</a></li>
+            <li><a class="dropdown-item" href="#">Society Welfare</a></li>
             <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Animal Welfare</a></li>
           </ul>
         </li>
         <li className="nav-item">
         <Link to="/gallery" className="nav-link">Gallery</Link>
-        </li>
-        <li className="nav-item">
-        <Link to="/ContactUs" className="nav-link">Contact Us</Link>
         </li>
         <li className="nav-item">
         <Link to="/signUp" className="nav-link">Sign Up</Link>
@@ -52,7 +50,8 @@ function Navbar() {
       </ul>
       <section className='Main'>
 <h1>YOUR HOME <br/>FOR HELP</h1>
-<button type="button" class="btnHero btn-outline-primary">Start a Fund</button>
+{/* <button type="button" class="btnHero btn-outline-primary">Start a Fund</button> */}
+<Button variant="outline-primary" className='btnHero'> <a href='https://docs.google.com/forms/d/e/1FAIpQLScz6V2lQscaoJrqHMI5JS8v5KJLOz7TupMkQXIWDH6UvHnSWw/viewform?usp=sf_link'>Start a Fund</a> </Button>{''}
 
         </section>
         <section id="features">
