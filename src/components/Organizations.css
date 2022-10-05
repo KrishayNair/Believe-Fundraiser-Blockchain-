@@ -1,0 +1,36 @@
+.card1{
+    display: inline-block;
+    margin: 4rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@700&display=swap');
+.logo{
+  width: 5.5rem;
+  border-radius: 60%;
+  
+}
+.nav-brand{
+  position: relative;
+  left: 1rem;
+  bottom: 2rem;
+}
+.nav-link{
+  color: white;
+  position: relative;
+  right: 4.5rem;
+  top: 1.2rem;
+  padding-left: 2rem;
+  /* color: darkblue; */
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+.nav {
+  background-color: #5800FF;
+}
+ul.nav a:hover { color: black !important; }
+.dropdown-menu{
+  background-color: #47B5FF;
+  font-family: 'Poppins', sans-serif;
+}
+ul.nav a:visited {
+  color: #fff;
+}

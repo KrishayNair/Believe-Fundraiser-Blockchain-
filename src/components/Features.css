@@ -32,10 +32,14 @@
     color: #fff;
     position: relative;
     bottom: 1rem;
+    display: block;
+    text-align: center;
   }
   .heading-main{
     font-size: 4rem;
     font-family: 'Open Sans', sans-serif;
     color: #fff;  
     margin-bottom: 5rem;
+    display: block;
+    text-align: center;
 }

@@ -1,18 +1,25 @@
 import logo from './logo.svg';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import Navbar from './components/Navbar';
-import Hero from "./components/Hero"
-import Features from './components/Features';
+import Home from './components/Home';
+import Organizations from './components/Organizations';
+import Gallery from "./components/Gallery"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import './App.css';
 
-function App() {
+function App(){
   return (
-    <div className="App">
-    <Navbar/>
-    <Hero/>
-    <Features/>
-    </div>
+  <BrowserRouter>
+   <Routes>
+     <Route path="/" element={<Home/>} />
+     <Route path= "about" element={ <Organizations />} />
+     <Route path= "organizations" element ={<Organizations />} />
+     <Route path= "Funds" element ={<Organizations />} />
+     <Route path= "Gallery" element ={<Gallery />} />
+     <Route path= "ContactUs" element ={<Organizations />} />
+     </Routes>
+  </BrowserRouter>
   );
 }
 

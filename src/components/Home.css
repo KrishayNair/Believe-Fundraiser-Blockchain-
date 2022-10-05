@@ -6,8 +6,8 @@
 }
 .nav-brand{
   position: relative;
-  right: 4rem;
-  bottom: 1.5rem;
+  left: 1rem;
+  bottom: 2rem;
 }
 .nav-link{
   color: white;
@@ -26,4 +26,7 @@ ul.nav a:hover { color: black !important; }
 .dropdown-menu{
   background-color: #47B5FF;
   font-family: 'Poppins', sans-serif;
+}
+ul.nav a:visited {
+  color: #fff;
 }

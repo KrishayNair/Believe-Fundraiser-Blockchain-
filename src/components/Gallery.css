@@ -1,0 +1,92 @@
+
+  .Heading{
+    font-family: 'Google Sans Bold';
+    font-size: 8rem;
+  }
+  
+  .Heading::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .FeedImage{
+  width: 70%;
+  margin-bottom: 3rem;
+  margin-left: 9rem;
+  border-style:  solid ;
+  border-color: #2B3595;
+  border-width: 1rem;
+  padding: 1rem;
+  }
+  
+  .row {
+    display: flex;
+    max-width: 95%;
+  }
+  
+  .column {
+    flex: 25%;
+    padding:  0 !important;
+  }
+  
+  .HeadingCover{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60rem;
+    height: 20rem;
+    position: relative;
+    top: 4.5rem;
+  }
+  
+  .letterO{
+    color: var(--coreBlue);
+  }
+  
+  .letterU{
+    color: var(--coreRed);
+  }
+  
+  .letterR{
+    color: var(--coreYellow);
+  }
+  
+  .letterF{
+    color: var(--coreBlue);
+  }
+  
+  .letterE{
+    color: var(--coreRed);
+  }
+  
+  .letterE2{
+    color: var(--coreYellow);
+  }
+  
+  .letterD{
+    color: var(--coreGreen);
+  }
+  
+  .Content{
+    padding-top: 10rem;
+  }
+  
+  @media screen and (max-width: 900px)and (min-width: 600px){
+    .column {
+        flex: 100%;
+        padding: 5px;
+      }
+      .FeedImage{
+        margin-left: 16.5rem;
+      }
+  }
+  
+  @media screen and (max-width: 600px){
+      .column {
+      flex: 100%;
+      padding: 5px;
+    }
+    .FeedImage{
+      margin-left: 11rem;
+    }
+  }

@@ -12,12 +12,15 @@ h1 {
     font-size: 5rem;
     font-family: 'Poppins', sans-serif;
     color: #2B3595;
+    display: block;
+    text-align: center;
 }
-.btn{
+.btnHero{
     width: 12rem;
     height: 4rem;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     position: relative;
     top: 3rem;
+    left: 47rem;
 }
