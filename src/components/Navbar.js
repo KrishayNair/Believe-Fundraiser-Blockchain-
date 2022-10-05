@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Navbar.css"
-import logo from "../images/logo.webp"
+import logo from "../images/believe.png"
 function Navbar() {
   return (
 <ul className="nav justify-content-center">

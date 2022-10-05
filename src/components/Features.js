@@ -13,21 +13,21 @@ function Features() {
   <div class="row">
 
     <div class="feature-box col-lg-5">
-      <h3>Medicine Help<img src={medicine} class="photo1"/></h3>
+      <h3>Medicine and Treatment<img src={medicine} class="photo1"/></h3>
       <p>we will provide medication around the world</p>
     </div>
 
     <div class="feature-box col-lg-5 ">
       <h3>We Build and Create<img src={orphanage} class="photo3"/></h3>
-      <p>we will build orphanage around the world and help existing orphanage to get better </p>
+      <p>We will build NGO's association and orphanage around the world</p>
     </div>
     <div class="feature-box col-lg-5 ">
       <h3>Water Delivery<img src={truck} class="photo2"/></h3>
-      <p>Efficient control over content required for student.</p>
+      <p>We are helping people in water scarce villages to build sustainable water harvesting systems.</p>
     </div>
     <div class="feature-box col-lg-5 ">
       <h3>We Care About Earth<img src={earth} class="photo1"/></h3>
-      <p>Reduce, reuse, and recycle. Cut down on what you throw away....</p>
+      <p>Strives to help make the changes necessary to provide a healthier future for our planet by funding our Global Initiatives.</p>
     </div>
   </div>
 </section>

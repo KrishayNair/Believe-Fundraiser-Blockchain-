@@ -4,10 +4,12 @@
     background-color: #2B3595;
     color: #fff;
     font-family: 'Poppins', sans-serif;
+   
   }
   .feature-box {
     padding: 1.5rem;
-    margin-left: 1.5rem;
+    margin-left: 6.7rem;
+    text-align: left;
   }
   .photo1{
     width: 4rem;

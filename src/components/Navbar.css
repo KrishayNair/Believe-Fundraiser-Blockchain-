@@ -7,13 +7,13 @@
 .nav-brand{
   position: relative;
   right: 4rem;
-  bottom: 0.8rem;
+  bottom: 1.5rem;
 }
 .nav-link{
   color: white;
   position: relative;
   right: 4.5rem;
-  top: 0.5rem;
+  top: 1.2rem;
   padding-left: 2rem;
   /* color: darkblue; */
   font-size: 1.5rem;
